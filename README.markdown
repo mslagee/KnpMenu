@@ -1,9 +1,9 @@
 KnpMenu
 =======
 
-The KnpMenu library provides object oriented menus for PHP 5.3.
-It is used by the [KnpMenuBundle](https://github.com/KnpLabs/KnpMenuBundle) for Symfony2
-but can now be used stand-alone.
+KnpMenu类库可以为PHP 5.3提供面向对象的菜单
+在Symfony2中，最初用于 [KnpMenuBundle](https://github.com/KnpLabs/KnpMenuBundle)
+不过现在可以单独使用了
 
 [![Build Status](https://secure.travis-ci.org/KnpLabs/KnpMenu.png)](http://travis-ci.org/KnpLabs/KnpMenu)
 [![Latest Stable Version](https://poser.pugx.org/knplabs/knp-menu/v/stable.png)](https://packagist.org/packages/knplabs/knp-menu)
@@ -26,7 +26,7 @@ $renderer = new ListRenderer();
 echo $renderer->render($menu);
 ```
 
-The above menu would render the following HTML:
+上面的代码将会生成如下的 HTML:
 
 ```html
 <ul>
@@ -45,18 +45,16 @@ The above menu would render the following HTML:
 </ul>
 ```
 
-This way you can finally avoid writing an ugly template to show the selected item,
-the first and last items, submenus, ...
+通过这样的方式，你终于不必为了显示“第一项”，“最后一项”，“子菜单”而编写一个丑陋的模版了
 
 > The bulk of the documentation can be found in the `doc` directory.
 
 ## Installation
 
-KnpMenu does not provide an autoloader but follow the PSR-0 convention. You
-can use any compliant autoloader for the library, for instance the Symfony2
+KnpMenu 不提供自动加载器 but follow the PSR-0 convention. 
+你可以对这个类库使用任何兼容的加载器, for instance the Symfony2
 [ClassLoader component](https://github.com/symfony/ClassLoader).
-Assuming you cloned the library in `vendor/KnpMenu`, it will be configured
-this way:
+假设你签出的类库在 `vendor/KnpMenu`下面, 它应该这样配置:
 
 ```php
 <?php
