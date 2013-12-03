@@ -1,7 +1,7 @@
 KnpMenu
 =======
 
-KnpMenu类库可以为PHP 5.3提供面向对象的菜单
+KnpMenu类库可以为PHP 5.3提供面向对象的菜。  
 在Symfony2中，最初用于 [KnpMenuBundle](https://github.com/KnpLabs/KnpMenuBundle)
 不过现在可以单独使用了
 
